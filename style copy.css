@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #324ca8; 
+}
+.section1{
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logoandname{
+    flex-wrap: nowrap;
+
+}
+.logo{
+    width:9rem;
+    padding-left: 1rem;
+    padding-top: .5rem;
+}
+.company{
+    width:10rem;
+    padding-top: 0rem;
+    padding-bottom: .5rem
+}
+.navigation{
+    display:flex;
+    justify-content: right;
+    border:none;
+    align-items: top;
+}
+.button{
+    background-color:#324ca8;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    margin: .5rem .2rem;
+    padding: .5rem;
+    cursor: pointer;
+    border:none;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    opacity: 0.8;
+}
+.button:hover{
+    background-color: #2542ad;
+    opacity:1.0;
+}
+.contact{
+    background-color:#adafb6;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    margin: .5rem .2rem;
+    padding: .5rem;
+    cursor: pointer;
+    border:none;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    opacity: 0.8;
+}
+.contact:hover{
+    background-color: #adafb6ad;
+}
+.slogan{
+    display:flex;
+    flex-wrap: wrap-reverse;
+    justify-content: right;
+    padding-right: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-size: 3rem;
+    text-wrap: wrap;
+    font-weight: bold;
+
+}
+.transition-section1{
+    background: linear-gradient(to bottom,  #324ca8, black);
+    height: .5rem;
+}
+.section2{
+    background-color: black;
+    color:#ffffff;
+}
+#services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#basdesign{
+    text-align: center;
+    padding-top: 1rem;
+}
+#basdesignpic1{
+    flex-wrap: nowrap;
+    cursor: pointer;
+    width:22rem;
+    padding: 1rem;
+}
+#basdesignpic2{
+    flex-wrap: nowrap;
+    cursor: pointer;
+    width:22rem;
+    padding: 1rem;
+}
+#render{
+    text-align: center;
+    padding-top: 1rem;
+}
+#renderpic{
+    height:15rem;
+    padding: 1rem;
+}
+#floorplan{
+    text-align: center;
+    padding-top: 1rem;
+}
+#floorpic1{
+    flex-wrap: nowrap;
+    cursor: pointer;
+    width:22rem;
+    padding: 1rem;
+}
+#floorpic2{
+    flex-wrap: nowrap;
+    cursor: pointer;
+    width:22rem;
+    padding: 1rem;
+}
+#database{
+    text-align: center;
+    padding-top: 1rem;
+}
+.transition-section2{
+    background: linear-gradient(to bottom, black, #324ca8);
+    height: .5rem;
+}
+.section3{
+    background-color: #324ca8;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.transition-section3{
+    background: linear-gradient(to bottom, #324ca8, white);
+    height: .5rem;
+}
+.section4{
+    background-color:#ffffff;
+}
+#history{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 40em;
+    display:flex;
+    text-wrap: wrap;
+}
+.transition-section4{
+    background: linear-gradient(to bottom, white, #324ca8);
+    height: .5rem;
+}
+.section5{
+    background-color:#324ca8;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.transition-section5{
+    background: linear-gradient(to bottom,#324ca8, white );
+    height: .5rem;
+}
+#footer{
+    background-color: white;
+}
+.footer-columns {
+    background-color: white;
+    width:100%;
+    padding-top: 1rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    display: flex;
+    justify-content: space-between;
+  }
+.column {
+    flex: 1; /* Ensure the columns have equal width */
+    /* Add padding or margins as necessary */
+}
+.column ul {
+    list-style: none; /* Removes the default list styling */
+    padding: 1; /* Removes the default padding */
+}
+.column h4 {
+   text-decoration: underline; /* Styling for the headers */
+}  
+a.actionlink{
+        color: inherit;      /* Makes the color the same as the surrounding text */
+        text-decoration: none; /* Removes the underline */
+      }
+a.actionlink:hover,
+a.actionlink:focus {
+  text-decoration: underline; /* Adds an underline on hover/focus for usability */
+  cursor: pointer;
+}
+#footsep{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Contact.html style*/
+.contactus{
+    width:100%;
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+#getintouch{
+    flex: 1; /* Gives the section a flex value */
+    display: flex;
+    justify-content: center;
+    flex-direction: row; /* Aligns the 'Get in touch' title in a column */
+    font-size: 2rem;
+
+}
+#contactpara{
+    flex: 1; /* Gives the section a flex value */
+    display: flex;
+    flex-direction: column; /* Aligns the paragraphs in a column */
+    justify-content: center; /* Centers the paragraphs vertically in the column */
+    text-align: left; /* Aligns text to the left */
+    font-size: 1.5rem;
+}
+.icon{
+    width:2rem;
+}
+.contactform{
+    padding-top: 3rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+.input{
+    margin-bottom: .25rem;
+    border-radius: .5rem;
+}
+#name{
+    width: 20rem;
+    height: 2rem;
+    border-radius: .25rem;
+    text-align: left;
+    vertical-align: top;
+}
+#email{
+    width: 20rem;
+    height: 2rem;
+    border-radius: .25rem;
+    text-align: left;
+    vertical-align: top;
+}
+#contactnumber{
+    width: 20rem;
+    height: 2rem;
+    border-radius: .25rem;
+    text-align: left;
+    vertical-align: top;
+}
+#company{
+    width: 20rem;
+    height: 2rem;
+    border-radius: .25rem;
+    text-align: left;
+    vertical-align: top;
+}
+#message{
+    width: 20rem;
+    height: 2rem;
+    border-radius: .25rem;
+    text-align: left;
+    vertical-align: top;
+}
+#submit{
+    width: 5rem;
+    height: 2rem;
+    border-radius: .25rem;
+    text-align: center;
+    vertical-align: top;
+}
